@@ -1,0 +1,4 @@
+rootProject.name='iperf3 Android'
+include ':sample'
+include ':iperf'
+

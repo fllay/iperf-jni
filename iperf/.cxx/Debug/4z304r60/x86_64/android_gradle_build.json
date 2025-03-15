@@ -1,0 +1,54 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "iperf-jni-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+        "iperf-jni"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "iperf-jni",
+      "output": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/Debug/4z304r60/obj/x86_64/libiperf-jni.so",
+      "runtimeFiles": []
+    },
+    "iperf-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+        "iperf"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "iperf",
+      "output": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64/libiperf.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

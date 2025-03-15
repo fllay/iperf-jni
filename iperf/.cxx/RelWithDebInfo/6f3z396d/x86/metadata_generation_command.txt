@@ -1,0 +1,26 @@
+                    Executable : /Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Users/cake/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/cake/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_C_FLAGS=-I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie
+-DCMAKE_CXX_FLAGS=-I./src/ -std=c++14 -fexceptions -frtti -DANDROID_STL=c++_shared
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/RelWithDebInfo/6f3z396d/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/RelWithDebInfo/6f3z396d/obj/x86
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

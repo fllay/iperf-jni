@@ -1,0 +1,54 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "iperf-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86",
+        "iperf"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "iperf",
+      "output": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86/libiperf.a"
+    },
+    "iperf-jni-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/RelWithDebInfo/6f3z396d/x86",
+        "iperf-jni"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "iperf-jni",
+      "output": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/RelWithDebInfo/6f3z396d/obj/x86/libiperf-jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.synaptictools.sample.MainViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context="com.synaptictools.sample.MainActivity">
+
+        <TextView
+            android:id="@+id/ipAddress"
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etHostname"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="@string/ed_hint_server_address"
+            android:inputType="text|textNoSuggestions"
+            android:maxLines="1"
+            android:text="@string/et_label_server_address"
+            app:layout_constraintEnd_toStartOf="@+id/etPort"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPort"
+            android:layout_width="100dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="@string/ed_hint_port"
+            android:maxLines="1"
+            android:text="@string/et_label_port"
+            app:layout_constraintStart_toEndOf="@+id/etHostname"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/etHostname"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/start_test"
+            android:enabled="@{!viewModel.IPerfTestRunning}"
+            android:clickable="@{!viewModel.IPerfTestRunning}"/>
+
+        <ScrollView
+            android:id="@+id/result_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:fillViewport="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btRequest">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.IPerfRequestResult}" />
+
+        </ScrollView>
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/uplinkspeedometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result_placeholder"
+            app:sv_maxSpeed="100"
+            app:sv_unit="km/h" />
+
+        <Switch
+            android:id="@+id/clientServerSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Server"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintStart_toEndOf="@+id/ipAddress"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/isUploadSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Downlink"
+            app:layout_constraintBottom_toBottomOf="@+id/etPort"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etPort"
+            app:layout_constraintTop_toBottomOf="@+id/clientServerSwitch" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

@@ -1,0 +1,4 @@
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a/CMakeFiles/iperf-jni.dir
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a/CMakeFiles/iperf.dir

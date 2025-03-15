@@ -1,0 +1,103 @@
+[
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Diperf_jni_EXPORTS -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -I./src/ -std=c++14 -fexceptions -frtti -DANDROID_STL=c++_shared -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf-jni.dir/iperf-jni-wrap.cpp.o -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni-wrap.cpp",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni-wrap.cpp"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Diperf_jni_EXPORTS -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -I./src/ -std=c++14 -fexceptions -frtti -DANDROID_STL=c++_shared -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf-jni.dir/iperf-jni.cpp.o -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/cjson.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/cjson.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/cjson.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_api.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_api.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_api.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_error.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_error.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_error.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_client_api.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_client_api.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_client_api.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_locale.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_locale.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_locale.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_server_api.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_server_api.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_server_api.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_tcp.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_tcp.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_tcp.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_udp.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_udp.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_udp.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_sctp.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_sctp.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_sctp.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/iperf_util.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_util.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/iperf_util.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/net.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/net.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/net.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/tcp_info.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/tcp_info.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/tcp_info.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/tcp_window_size.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/tcp_window_size.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/tcp_window_size.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/timer.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/timer.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/timer.c"
+},
+
+{
+  "directory": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86_64",
+  "command": "/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -I./src/ -DHAVE_CONFIG_H -UHAVE_STDINT_H -UAF_INET6 -w -Wno-error=format-security -fPIE -pie -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/iperf.dir/iperf3/src/units.c.o   -c /Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/units.c",
+  "file": "/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf3/src/units.c"
+}
+]

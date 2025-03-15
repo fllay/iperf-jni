@@ -1,0 +1,6 @@
+ninja: Entering directory `/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a'
+[1/5] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_locale.c.o
+[2/5] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_api.c.o
+[3/5] Linking C static library libiperf.a
+[4/5] Building CXX object CMakeFiles/iperf-jni.dir/iperf-jni-wrap.cpp.o
+[5/5] Linking CXX shared library /Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/Debug/4z304r60/obj/armeabi-v7a/libiperf-jni.so

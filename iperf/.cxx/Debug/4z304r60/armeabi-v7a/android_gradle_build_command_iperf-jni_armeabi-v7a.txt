@@ -1,0 +1,7 @@
+Executable : /Users/cake/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/armeabi-v7a
+iperf-jni
+jvmArgs : 
+
