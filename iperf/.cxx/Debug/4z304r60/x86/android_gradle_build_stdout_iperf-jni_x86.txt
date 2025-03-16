@@ -1,6 +1,51 @@
 ninja: Entering directory `/Users/cake/Desktop/Projects/android/iperf-jni/iperf/.cxx/Debug/4z304r60/x86'
-[1/5] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_locale.c.o
-[2/5] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_api.c.o
-[3/5] Linking C static library libiperf.a
-[4/5] Building CXX object CMakeFiles/iperf-jni.dir/iperf-jni-wrap.cpp.o
-[5/5] Linking CXX shared library /Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/Debug/4z304r60/obj/x86/libiperf-jni.so
+[1/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_locale.c.o
+[2/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_error.c.o
+[3/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_client_api.c.o
+[4/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_server_api.c.o
+[5/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_udp.c.o
+[6/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_tcp.c.o
+[7/19] Building C object CMakeFiles/iperf.dir/iperf3/src/cjson.c.o
+[8/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_sctp.c.o
+[9/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_util.c.o
+[10/19] Building C object CMakeFiles/iperf.dir/iperf3/src/tcp_window_size.c.o
+[11/19] Building C object CMakeFiles/iperf.dir/iperf3/src/tcp_info.c.o
+[12/19] Building C object CMakeFiles/iperf.dir/iperf3/src/timer.c.o
+[13/19] Building C object CMakeFiles/iperf.dir/iperf3/src/net.c.o
+[14/19] Building C object CMakeFiles/iperf.dir/iperf3/src/units.c.o
+[15/19] Building C object CMakeFiles/iperf.dir/iperf3/src/iperf_api.c.o
+[16/19] Building CXX object CMakeFiles/iperf-jni.dir/iperf-jni.cpp.o
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp:20:36: warning: 'memset' will set 0 bytes; maybe the arguments got flipped? [-Wuser-defined-warnings]
+    memset(buffer, OUTPUT_LENGTH, 0);
+                                   ^
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/fortify/string.h:146:9: note: from 'diagnose_if' attribute on 'memset':
+        __clang_warning_if(c && !n, "'memset' will set 0 bytes; maybe the arguments got flipped?") {
+        ^                  ~~~~~~~
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/cdefs.h:135:54: note: expanded from macro '__clang_warning_if'
+#define __clang_warning_if(cond, msg) __attribute__((diagnose_if(cond, msg, "warning")))
+                                                     ^           ~~~~
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp:37:36: warning: 'memset' will set 0 bytes; maybe the arguments got flipped? [-Wuser-defined-warnings]
+    memset(buffer, OUTPUT_LENGTH, 0);
+                                   ^
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/fortify/string.h:146:9: note: from 'diagnose_if' attribute on 'memset':
+        __clang_warning_if(c && !n, "'memset' will set 0 bytes; maybe the arguments got flipped?") {
+        ^                  ~~~~~~~
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/cdefs.h:135:54: note: expanded from macro '__clang_warning_if'
+#define __clang_warning_if(cond, msg) __attribute__((diagnose_if(cond, msg, "warning")))
+                                                     ^           ~~~~
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp:52:36: warning: 'memset' will set 0 bytes; maybe the arguments got flipped? [-Wuser-defined-warnings]
+    memset(buffer, OUTPUT_LENGTH, 0);
+                                   ^
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/fortify/string.h:146:9: note: from 'diagnose_if' attribute on 'memset':
+        __clang_warning_if(c && !n, "'memset' will set 0 bytes; maybe the arguments got flipped?") {
+        ^                  ~~~~~~~
+/Users/cake/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/cdefs.h:135:54: note: expanded from macro '__clang_warning_if'
+#define __clang_warning_if(cond, msg) __attribute__((diagnose_if(cond, msg, "warning")))
+                                                     ^           ~~~~
+/Users/cake/Desktop/Projects/android/iperf-jni/iperf/src/main/jni/iperf-jni.cpp:127:43: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        iperf_set_test_bind_address(test, "0.0.0.0"); // Listen on all interfaces
+                                          ^
+4 warnings generated.
+[17/19] Linking C static library libiperf.a
+[18/19] Building CXX object CMakeFiles/iperf-jni.dir/iperf-jni-wrap.cpp.o
+[19/19] Linking CXX shared library /Users/cake/Desktop/Projects/android/iperf-jni/iperf/build/intermediates/cxx/Debug/4z304r60/obj/x86/libiperf-jni.so

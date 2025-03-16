@@ -1,5 +1,6 @@
 package com.synaptictools.sample
 
+import android.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -14,7 +15,12 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.net.wifi.WifiManager
 import android.text.format.Formatter
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.EditText
 import android.widget.ScrollView
+import android.widget.Spinner
 import com.github.anastr.speedviewlib.SpeedView
 import java.net.Inet4Address
 import java.net.NetworkInterface
@@ -51,6 +57,48 @@ class MainActivity : AppCompatActivity() {
                 textView.text = newResult // This will update the TextView with the new result
                 scrollView.post {
                     scrollView.fullScroll(ScrollView.FOCUS_DOWN) // Scroll to the bottom of the ScrollView
+                }
+            }
+
+
+            val spinner: Spinner = findViewById(R.id.duration)
+            var iperfDur: Int = 10
+
+            // Create a list of numbers increasing by 10 (e.g., 10, 20, 30, ..., 100)
+            // Create a list of numbers increasing by 10 with a hint
+            val numberList = mutableListOf("Duration") // Hint as the first item
+            numberList.addAll((10..100 step 10).map { it.toString() }) // Add numbers
+
+            // ArrayAdapter for the spinner
+            val adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_spinner_item, numberList)
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinner.adapter = adapter
+
+
+
+
+            // Handle selection
+            spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+                override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                    val selectedItem = numberList[position]
+                    when {
+                        position == 0 -> {iperfDur = 10} // Ignore hint
+                        position == numberList.lastIndex -> {
+                        showCustomValueDialog(spinner, numberList, adapter) { customValue ->
+                            iperfDur = customValue
+                        }
+                    }
+                        else -> {
+                            val selectedNumber = numberList[position].toInt()
+                            iperfDur = numberList[position].toInt()
+                        }
+                    }
+
+                }
+
+                override fun onNothingSelected(parent: AdapterView<*>?) {
+                    // Do nothing
+                    iperfDur = 10
                 }
             }
 
@@ -118,7 +166,7 @@ class MainActivity : AppCompatActivity() {
                                 port = port.toInt(),
                                 stream = stream.path,
                                 download = isUpload,
-                                duration = 10,
+                                duration = iperfDur,
                                 interval = 1,
                                 useUDP = false,
                                 json = false,
@@ -133,6 +181,33 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun showCustomValueDialog(
+        spinner: Spinner,
+        numberList: MutableList<String>,
+        adapter: ArrayAdapter<String>,
+        onValueEntered: (Int) -> Unit // Callback function to return the integer value
+    ) {
+        val input = EditText(this)
+        input.inputType = android.text.InputType.TYPE_CLASS_NUMBER
+
+        AlertDialog.Builder(this)
+            .setTitle("Enter duration")
+            .setView(input)
+            .setPositiveButton("OK") { _, _ ->
+                val enteredText = input.text.toString()
+                val enteredValue = enteredText.toIntOrNull() // Convert to Int safely
+
+                if (enteredValue != null) {
+                    numberList.add(numberList.lastIndex, enteredValue.toString()) // Add before "Custom Value"
+                    adapter.notifyDataSetChanged() // Refresh spinner
+                    spinner.setSelection(numberList.indexOf(enteredValue.toString())) // Select entered value
+
+                    onValueEntered(enteredValue) // Return the entered value
+                }
+            }
+            .setNegativeButton("Cancel") { dialog, _ -> dialog.dismiss() }
+            .show()
+    }
 
     // Get Wi-Fi IP Address
 

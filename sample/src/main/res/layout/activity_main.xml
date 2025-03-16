@@ -20,53 +20,33 @@
             android:id="@+id/ipAddress"
             android:layout_width="298dp"
             android:layout_height="46dp"
+            android:layout_marginEnd="9dp"
             android:text="TextView"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="10dp" />
-
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/etHostname"
-            android:layout_width="0dp"
-            android:layout_height="59dp"
-            android:layout_marginTop="56dp"
-            android:ems="10"
-            android:hint="@string/ed_hint_server_address"
-            android:inputType="text|textNoSuggestions"
-            android:maxLines="1"
-            android:text="@string/et_label_server_address"
-            app:layout_constraintEnd_toStartOf="@+id/etPort"
+            app:layout_constraintEnd_toStartOf="@+id/clientServerSwitch"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/etPort"
-            android:layout_width="100dp"
-            android:layout_height="59dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="56dp"
-            android:ems="10"
-            android:hint="@string/ed_hint_port"
-            android:maxLines="1"
-            android:text="@string/et_label_port"
-            app:layout_constraintStart_toEndOf="@+id/etHostname"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btRequest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/etHostname"
-            app:layout_constraintStart_toStartOf="parent"
-            android:text="@string/start_test"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="@{!viewModel.IPerfTestRunning}"
             android:enabled="@{!viewModel.IPerfTestRunning}"
-            android:clickable="@{!viewModel.IPerfTestRunning}"/>
+            android:text="@string/start_test"
+            app:layout_constraintBottom_toTopOf="@+id/result_placeholder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
         <ScrollView
             android:id="@+id/result_placeholder"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="30dp"
             android:fillViewport="false"
+            app:layout_constraintBottom_toTopOf="@+id/uplinkspeedometer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btRequest">
@@ -101,15 +81,68 @@
             app:layout_constraintStart_toEndOf="@+id/ipAddress"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Switch
-            android:id="@+id/isUploadSwitch"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Downlink"
-            app:layout_constraintBottom_toBottomOf="@+id/etPort"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/etPort"
-            app:layout_constraintTop_toBottomOf="@+id/clientServerSwitch" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etHostname"
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/ed_hint_server_address"
+                android:inputType="text|textNoSuggestions"
+                android:maxLines="1"
+                android:text="@string/et_label_server_address" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etPort"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:ems="10"
+                android:hint="@string/ed_hint_port"
+                android:maxLines="1"
+                android:text="@string/et_label_port" />
+
+            <Switch
+                android:id="@+id/isUploadSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Downlink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="407dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/btRequest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <Spinner
+                android:id="@+id/interval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
